@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    /*width: 70%;*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 3px solid black;
+}
+
+header{
+    background: darkblue;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+nav{
+    background: white;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    padding: 40px;
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: white;
+
+}
+
+.article{
+    color: Black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /*border-bottom: 1px solid Black;*/
+
+}
+
+.article:first-child{
+    /*border-top: 1px solid white;
+      border-top: 1px solid rgb(79, 163, 79);*/
+      text-align: center;
+}
+
+.article:last-child{
+    float: left;
+    text-align: right;
+}
+
+.article h3{
+    font-size: 25px;
+}
+
+.article form label{
+    float: left;
+    width: 15%;
+}
+
+.article form input{
+    float: left;
+    width: 70%;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 580px;
+    background: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10;
+}
+
+article ul li{
+    border-top: 1px solid white;
+    margin-top: 30 px;
+    /*float: left;*/
+   list-style: none;
+    margin: 10px;
+}
+
+article hr{
+    color: black;
+    background: black;
+    font-size: 3px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 50px;
+}
+
+footer ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    float: right;
+}
